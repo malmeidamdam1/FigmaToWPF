@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{41320762-923E-43C3-BB3E-6C8743222983}</ProjectGuid>
+    <ProjectGuid>{CE413C32-8F0A-407A-B35A-31C83AB03AB4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>FigmaToWPF</RootNamespace>
     <AssemblyName>FigmaToWPF</AssemblyName>
