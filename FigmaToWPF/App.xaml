@@ -1,9 +1,12 @@
 ﻿<Application x:Class="FigmaToWPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:FigmaToWPF"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:FigmaToWPF" 
+             StartupUri="Inicio.xaml"
+             >
+    <!--Recursos accesibles para todas las ventanas de la aplicacion-->
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="colorFondoNavBar">#bbbbbb</SolidColorBrush>
+        <SolidColorBrush x:Key="colorFondoPantalla">#6F868C</SolidColorBrush> 
     </Application.Resources>
 </Application>

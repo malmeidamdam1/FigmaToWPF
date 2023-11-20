@@ -6,7 +6,41 @@
         xmlns:local="clr-namespace:FigmaToWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <!--Usamos propiedad definida en forma de aplicación (App.xaml)-->
+    <Grid Background="{StaticResource colorFondoNavBar}">
+
+        <!--Aqui usamos estilos invidiuales en cada boton-->
+        <Button Content="USUARIO&#xD;&#xA;" HorizontalAlignment="Stretch"   Width="Auto" Height="59" Margin="222,140,225,221">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FFFFA3A3"/>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+        <Button Content="CONTRASEÑA" HorizontalAlignment="Stretch"   Width="Auto" Height="57" Margin="222,222,225,139">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FFFFA3A3"/>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
+        <TextBox  HorizontalAlignment="Left" Height="36" TextWrapping="Wrap" Text="LOGIN&#xD;&#xA;" VerticalAlignment="Top" Width="294" Margin="245,75,0,0" Background="{x:Null}" FontSize="30" TextAlignment="Center" BorderBrush="Transparent"  FontWeight="Bold" />
+        <Button Content="ENTRAR" HorizontalAlignment="Stretch" Width="Auto" Height="57" Margin="296,306,333,55" Click="Entrar_Click">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#FFFFA3A3"/>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Image Source="src/paleLogo.png"
+        HorizontalAlignment="Left" Height="115" 
+        VerticalAlignment="Top" Width="125" Margin="40,30,0,0"/>
+
+
     </Grid>
 </Window>

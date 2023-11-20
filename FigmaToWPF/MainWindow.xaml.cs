@@ -24,5 +24,13 @@ namespace FigmaToWPF
         {
             InitializeComponent();
         }
+
+        private void Entrar_Click(object sender, RoutedEventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            inicio.Show();
+            this.Close();
+        }
+
     }
 }
