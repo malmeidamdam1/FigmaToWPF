@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:FigmaToWPF"
         mc:Ignorable="d"
         Title="Inicio" Height="450" Width="800" 
-        ResizeMode="CanResizeWithGrip" Icon="src/ventanaImagen.png">
+        ResizeMode="CanResizeWithGrip" Icon="src/ventanaImagen.png"
+        WindowStartupLocation="CenterScreen">
 
     <!--Aqui usamos estilo de ventana-->
     <!--Este estilo aplica solo a los elementos definidos en esta ventana a los que apuntemos con style-->
@@ -22,45 +23,45 @@
     </Window.Resources>
 
 
-    <!--DockPanel con 
-    1 Menu, tiene: MenuItems - Son las distintas opciones
-    1 Grid tiene: imagenes distribuidas 
-    -->
     <DockPanel>
+        
+        <!-- NAVBAR -->
         <Menu DockPanel.Dock="Top" Background="{StaticResource colorFondoNavBar}">
-            <Button Click="MenuItem_Click">
+            <Button>
                 <!-- Imagen más grande para la primera opción -->
                 <Image Source="src/paleLogo.png" Width="50" Height="50"/>
             </Button>
 
-            <MenuItem Header="INICIO" Click="MenuItem_Click">
+            <MenuItem Header="INICIO" Click="Menu_Click_Actual">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
 
-            <MenuItem Header="BIBLIOTECA" Click="MenuItem_Click_1">
+            <MenuItem Header="BIBLIOTECA" Click="MenuItem_Click_Biblioteca">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
 
-            <MenuItem Header="COMUNIDAD" Click="MenuItem_Click_2">
+            <MenuItem Header="COMUNIDAD" Click="MenuItem_Click_Comunidad">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="SOPORTE" Click="MenuItem_Click_3">
+            <MenuItem Header="SOPORTE" Click="MenuItem_Click_Soporte">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="BUSCAR" Click="MenuItem_Click_4">
+            <MenuItem Header="BUSCAR" Click="MenuItem_Click_Buscar">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
         </Menu>
+        <!-- NAVBAR -->
+
 
         <Grid Background="{StaticResource colorFondoPantalla}">
             <Image Source="src/inicioJuego.png" HorizontalAlignment="Left" Height="279" Margin="60,56,0,0" VerticalAlignment="Top" Width="363"/>

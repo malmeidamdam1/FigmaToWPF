@@ -53,7 +53,7 @@
             <Button Content="JUEGO#2" HorizontalAlignment="Left" Height="48" Margin="10,175,0,0"  VerticalAlignment="Top" Width="221"/>
             <Button Content="JUEGO#3" HorizontalAlignment="Left" Height="48" Margin="10,262,0,0"  VerticalAlignment="Top" Width="221"/>
 
-            <Image HorizontalAlignment="Left" Height="178" Margin="402,10,0,0" VerticalAlignment="Top" Width="308" Source="src/biblioteca2.png" Stretch="Fill"/>
+            <Image HorizontalAlignment="Left" Height="178" Margin="402,10,0,0" VerticalAlignment="Top" Width="308" Source="src/biblioteca3.png" Stretch="Fill"/>
             <Button Content="JUGAR" HorizontalAlignment="Left" Margin="426,202,0,0" VerticalAlignment="Top" Width="243" Height="57" Background="#FF117E1A" FontWeight="Bold"/>
             <Button Content="DESINSTALAR" HorizontalAlignment="Left" Margin="426,275,0,0" VerticalAlignment="Top" Width="243" Height="57" FontWeight="Bold" Background="#FFFF2604"/>
             <GridSplitter HorizontalAlignment="Left" Height="395" Margin="264,0,0,0" VerticalAlignment="Top" Width="17" Background="#FFD3B1B1"/>

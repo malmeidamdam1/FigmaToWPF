@@ -8,10 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/control.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/juegoportada.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/palelogo.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/usuario.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/ventanaimagen.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/biblioteca2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/biblioteca3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("src/iniciojuego.png")]
 
 

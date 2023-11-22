@@ -137,5 +137,13 @@
     <Resource Include="src\Usuario.png" />
     <Resource Include="src\ventanaImagen.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="src\biblioteca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="src\biblioteca2.png" />
+    <Resource Include="src\biblioteca3.png" />
+    <Resource Include="src\inicioJuego.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

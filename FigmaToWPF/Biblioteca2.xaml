@@ -16,42 +16,44 @@
     </Window.Resources>
 
     <DockPanel>
+        <!-- NAVBAR -->
         <Menu DockPanel.Dock="Top" Background="{StaticResource colorFondoNavBar}">
-            <Button Click="MenuItem_Click">
+            <Button>
                 <Image Source="src/paleLogo.png" Width="50" Height="50"/>
             </Button>
 
-            <MenuItem Header="INICIO" Click="MenuItem_Click">
+            <MenuItem Header="INICIO" Click="Menu_Click_Inicio">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
 
-            <MenuItem Header="BIBLIOTECA" Click="MenuItem_Click_1">
+            <MenuItem Header="BIBLIOTECA" Click="Menu_Click_Actual">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
 
-            <MenuItem Header="COMUNIDAD" Click="MenuItem_Click_2">
+            <MenuItem Header="COMUNIDAD" Click="Menu_Click_Comunidad">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="SOPORTE" Click="MenuItem_Click_3">
+            <MenuItem Header="SOPORTE" Click="Menu_Click_Soporte">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="BUSCAR" Click="MenuItem_Click_4">
+            <MenuItem Header="BUSCAR" Click="Menu_Click_Buscar">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
         </Menu>
+        <!-- NAVBAR -->
 
 
-       <!-- "#FFFFA3A3 -->
+        <!-- "#FFFFA3A3 -->
         <Grid Background="{StaticResource colorFondoPantalla}">
             
             <Button Content="JUEGO#1" HorizontalAlignment="Left" Height="48" Margin="10,86,0,0"  VerticalAlignment="Top" Width="221"/>

@@ -12,39 +12,43 @@
     </Window.Resources>
 
     <DockPanel>
+
+        <!-- NAVBAR -->
         <Menu DockPanel.Dock="Top" Background="{StaticResource colorFondoNavBar}">
-            <Button Click="MenuItem_Click">
+            <Button>
+                <!-- Imagen más grande para la primera opción -->
                 <Image Source="src/paleLogo.png" Width="50" Height="50"/>
             </Button>
 
-            <MenuItem Header="INICIO" Click="MenuItem_Click">
+            <MenuItem Header="INICIO" Click="Menu_Click_Inicio">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
 
-            <MenuItem Header="BIBLIOTECA" Click="MenuItem_Click_1">
+            <MenuItem Header="BIBLIOTECA" Click="Menu_Click_Actual">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
 
-            <MenuItem Header="COMUNIDAD" Click="MenuItem_Click_2">
+            <MenuItem Header="COMUNIDAD" Click="Menu_Click_Comunidad">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="SOPORTE" Click="MenuItem_Click_3">
+            <MenuItem Header="SOPORTE" Click="Menu_Click_Soporte">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
-            <MenuItem Header="BUSCAR" Click="MenuItem_Click_4">
+            <MenuItem Header="BUSCAR" Click="Menu_Click_Buscar">
                 <MenuItem.Icon>
                     <Image Source="src/control.png"/>
                 </MenuItem.Icon>
             </MenuItem>
         </Menu>
+        <!-- NAVBAR -->
 
 
 
@@ -53,7 +57,7 @@
             <Button Content="JUEGO#2" HorizontalAlignment="Left" Height="48" Margin="10,175,0,0"  VerticalAlignment="Top" Width="221"/>
             <Button Content="JUEGO#3" HorizontalAlignment="Left" Height="48" Margin="10,262,0,0"  VerticalAlignment="Top" Width="221"/>
 
-            <Image HorizontalAlignment="Left" Height="178" Margin="402,10,0,0" VerticalAlignment="Top" Width="308" Source="src/biblioteca2.png" Stretch="Fill"/>
+            <Image HorizontalAlignment="Left" Height="178" Margin="402,10,0,0" VerticalAlignment="Top" Width="308" Source="src/biblioteca1.png" Stretch="Fill"/>
             <Button Content="JUGAR" HorizontalAlignment="Left" Margin="426,202,0,0" VerticalAlignment="Top" Width="243" Height="57" Background="#FF117E1A" FontWeight="Bold"/>
             <Button Content="DESINSTALAR" HorizontalAlignment="Left" Margin="426,275,0,0" VerticalAlignment="Top" Width="243" Height="57" FontWeight="Bold" Background="#FFFF2604"/>
             <GridSplitter HorizontalAlignment="Left" Height="395" Margin="264,0,0,0" VerticalAlignment="Top" Width="17" Background="#FFD3B1B1"/>    
