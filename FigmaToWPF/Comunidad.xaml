@@ -1,0 +1,64 @@
+﻿<Window x:Class="FigmaToWPF.Comunidad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FigmaToWPF"
+        mc:Ignorable="d"
+        Title="Comunidad" 
+        Height="450" Width="800"
+        ResizeMode="CanResizeWithGrip" Icon="src/ventanaImagen.png"
+        WindowStartupLocation="CenterScreen">
+
+
+    <DockPanel>
+        <!-- NAVBAR -->
+        <Menu DockPanel.Dock="Top" Background="{StaticResource colorFondoNavBar}">
+            <Button>
+                <!-- Imagen más grande para la primera opción -->
+                <Image Source="src/paleLogo.png" Width="50" Height="50"/>
+            </Button>
+
+            <MenuItem Header="INICIO" Click="Menu_Click_Inicio">
+                <MenuItem.Icon>
+                    <Image Source="src/control.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+
+            <MenuItem Header="BIBLIOTECA" Click="Menu_Click_Biblioteca">
+                <MenuItem.Icon>
+                    <Image Source="src/control.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+
+            <MenuItem Header="COMUNIDAD" Click="Menu_Click_Actual">
+                <MenuItem.Icon>
+                    <Image Source="src/control.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="SOPORTE" Click="Menu_Click_Soporte">
+                <MenuItem.Icon>
+                    <Image Source="src/control.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="BUSCAR" Click="Menu_Click_Buscar">
+                <MenuItem.Icon>
+                    <Image Source="src/control.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+        </Menu>
+        <!-- NAVBAR -->
+
+
+        <!--Aqui usamos el estilo contenedor todos los texbox en este grid se aplicara-->
+        <Grid Background="{StaticResource colorFondoPantalla}">
+            <Label Content="DESTACADOS" HorizontalAlignment="Center" Margin="313,32,316,0" Height="32" Width="163" FontWeight="Bold" VerticalAlignment="Top" FontSize="20"/>
+            <Image HorizontalAlignment="Left" Height="94" Margin="60,85,0,0" VerticalAlignment="Top" Width="164" Source="biblioteca2.png"/>
+            <Image HorizontalAlignment="Left" Height="114" Margin="60,184,0,0" VerticalAlignment="Top" Width="164" Source="inicioJuego.png"/>
+            <Button Content="UNIRSE" HorizontalAlignment="Left" Margin="243,98,0,0" VerticalAlignment="Top" Width="186" Height="51"/>
+            <Button Content="UNIRSE" HorizontalAlignment="Left" Margin="243,219,0,0" VerticalAlignment="Top" Width="186" Height="51"/>
+
+        </Grid>
+
+    </DockPanel>
+</Window>

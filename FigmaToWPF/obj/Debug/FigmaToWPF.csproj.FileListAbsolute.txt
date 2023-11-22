@@ -24,3 +24,7 @@ C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\FigmaToWPF.csproj.Genera
 C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\FigmaToWPF.csproj.CoreCompileInputs.cache
 C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\FigmaToWPF.exe
 C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\FigmaToWPF.pdb
+C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\Comunidad.g.cs
+C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\Comunidad.baml
+C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\Buscar.g.cs
+C:\Users\alumMA\Desktop\FigmaToWPF\FigmaToWPF\obj\Debug\Buscar.baml

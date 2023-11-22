@@ -11,6 +11,7 @@
     <Application.Resources>
         <SolidColorBrush x:Key="colorFondoNavBar">#bbbbbb</SolidColorBrush>
         <SolidColorBrush x:Key="colorFondoPantalla">#6F868C</SolidColorBrush>
+        <SolidColorBrush x:Key="colorTexto">#8f251f</SolidColorBrush>
 
         <!-- Estilo global para todos los botones -->
         <Style TargetType="Button">

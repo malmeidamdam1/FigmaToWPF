@@ -37,7 +37,9 @@ namespace FigmaToWPF
 
         private void Menu_Click_Comunidad(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("No disponible por el momento");
+            Comunidad comunidad = new Comunidad();
+            comunidad.Show();
+            this.Close(); ;
         }
 
         private void Menu_Click_Soporte(object sender, RoutedEventArgs e)
@@ -49,7 +51,28 @@ namespace FigmaToWPF
 
         private void Menu_Click_Buscar(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("AQUI BUSCAR");
+            Buscar buscar = new Buscar();
+            buscar.Show();
+            this.Close();
+        }
+        private void Boton_Click_Actual(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Juego ya desplegado");
+        }
+
+        private void Boton_Click_Juego1(object sender, RoutedEventArgs e)
+        {
+            Biblioteca juego1 = new Biblioteca();
+            juego1.Show();
+            this.Close();
+        }
+
+        private void Boton_Click_Juego3(object sender, RoutedEventArgs e)
+        {
+            Biblioteca3 juego3 = new Biblioteca3();
+            juego3.Show();
+            this.Close();
+
         }
     }
 }

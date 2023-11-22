@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FigmaToWPF"
         mc:Ignorable="d"
-        Title="Biblioteca2" Height="450" Width="800"
-        ResizeMode="CanResizeWithGrip" Icon="src/ventanaImagen.png">
+        Title="Biblioteca2" 
+        Height="450" Width="800"
+        ResizeMode="CanResizeWithGrip" Icon="src/ventanaImagen.png"
+        WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <!-- Estilo para todos los botones de ESTA ventana//Solo aqui para aclarar ya que igualmente tendra este color por la definicion global de app.xaml-->
@@ -55,11 +57,11 @@
 
         <!-- "#FFFFA3A3 -->
         <Grid Background="{StaticResource colorFondoPantalla}">
+            <Button Click="Boton_Click_Juego1" Content="JUEGO#1" HorizontalAlignment="Left" Height="48" Margin="10,86,0,0"  VerticalAlignment="Top" Width="221"/>
+            <Button Click="Boton_Click_Actual" Content="JUEGO#2" HorizontalAlignment="Left" Height="48" Margin="10,175,0,0"  VerticalAlignment="Top" Width="221"/>
+            <Button Click="Boton_Click_Juego3" Content="JUEGO#3" HorizontalAlignment="Left" Height="48" Margin="10,262,0,0"  VerticalAlignment="Top" Width="221"/>
             
-            <Button Content="JUEGO#1" HorizontalAlignment="Left" Height="48" Margin="10,86,0,0"  VerticalAlignment="Top" Width="221"/>
-            <Button Content="JUEGO#2" HorizontalAlignment="Left" Height="48" Margin="10,175,0,0"  VerticalAlignment="Top" Width="221"/>
-            <Button Content="JUEGO#3" HorizontalAlignment="Left" Height="48" Margin="10,262,0,0"  VerticalAlignment="Top" Width="221"/>
-
+            
             <Image HorizontalAlignment="Left" Height="178" Margin="402,10,0,0" VerticalAlignment="Top" Width="308" Source="src/biblioteca2.png" Stretch="Fill"/>
             <Button Content="JUGAR" HorizontalAlignment="Left" Margin="426,202,0,0" VerticalAlignment="Top" Width="243" Height="57" Background="#FF117E1A" FontWeight="Bold"/>
             <Button Content="DESINSTALAR" HorizontalAlignment="Left" Margin="426,275,0,0" VerticalAlignment="Top" Width="243" Height="57" FontWeight="Bold" Background="#FFFF2604"/>

@@ -38,7 +38,9 @@ namespace FigmaToWPF
 
         private void MenuItem_Click_Comunidad(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("No disponible por el momento");
+            Comunidad comunidad = new Comunidad();
+            comunidad.Show();
+            this.Close();
         }
 
         private void MenuItem_Click_Soporte(object sender, RoutedEventArgs e)
@@ -50,7 +52,9 @@ namespace FigmaToWPF
 
         private void MenuItem_Click_Buscar(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("AQUI BUSCAR");
+            Buscar buscar = new Buscar();
+            buscar.Show();
+            this.Close();
         }
     }
 }

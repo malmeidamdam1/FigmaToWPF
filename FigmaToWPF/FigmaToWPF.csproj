@@ -56,6 +56,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Buscar.xaml.cs">
+      <DependentUpon>Buscar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Comunidad.xaml.cs">
+      <DependentUpon>Comunidad.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Soporte.xaml.cs">
       <DependentUpon>Soporte.xaml</DependentUpon>
     </Compile>
@@ -68,6 +74,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Biblioteca3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Buscar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Comunidad.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -144,6 +158,33 @@
     <Resource Include="src\biblioteca2.png" />
     <Resource Include="src\biblioteca3.png" />
     <Resource Include="src\inicioJuego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Numero1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Numero2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Numero3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="src\lupa.png" />
+    <Resource Include="src\Numero1.png" />
+    <Resource Include="src\Numero2.png" />
+    <Resource Include="src\Numero3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="paleLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="biblioteca2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="inicioJuego.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
