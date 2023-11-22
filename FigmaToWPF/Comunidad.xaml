@@ -55,8 +55,12 @@
             <Label Content="DESTACADOS" HorizontalAlignment="Center" Margin="313,32,316,0" Height="32" Width="163" FontWeight="Bold" VerticalAlignment="Top" FontSize="20"/>
             <Image HorizontalAlignment="Left" Height="94" Margin="60,85,0,0" VerticalAlignment="Top" Width="164" Source="biblioteca2.png"/>
             <Image HorizontalAlignment="Left" Height="114" Margin="60,184,0,0" VerticalAlignment="Top" Width="164" Source="inicioJuego.png"/>
-            <Button Content="UNIRSE" HorizontalAlignment="Left" Margin="243,98,0,0" VerticalAlignment="Top" Width="186" Height="51"/>
-            <Button Content="UNIRSE" HorizontalAlignment="Left" Margin="243,219,0,0" VerticalAlignment="Top" Width="186" Height="51"/>
+
+            <Button Content="UNIRSE" HorizontalAlignment="Left" Margin="243,98,0,0" VerticalAlignment="Top" Width="186" Height="51" Background="#1c991a"/>
+            <Button Content="UNIRSE" HorizontalAlignment="Left" Margin="243,219,0,0" VerticalAlignment="Top" Width="186" Height="51"  Background="#1c991a"/>
+
+            <Button Content="NO ME INTERESA" HorizontalAlignment="Left" Margin="465,98,0,0" VerticalAlignment="Top" Width="186" Height="51"  Background="#cf2c13"/>
+            <Button Content="NO ME INTERESA" HorizontalAlignment="Left" Margin="465,219,0,0" VerticalAlignment="Top" Width="186" Height="51"  Background="#cf2c13"/>
 
         </Grid>
 
